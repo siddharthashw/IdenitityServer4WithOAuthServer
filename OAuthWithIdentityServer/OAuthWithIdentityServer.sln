@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19AD7883-3803-4C4D-B0F8-EC92FF65DC9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB802555-A044-4F75-9F2B-CC62A621E9C2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OAuthWithIdentityServer", "src\OAuthWithIdentityServer\OAuthWithIdentityServer.xproj", "{57A60A44-19C9-4A0A-89F8-47E588CDB9A7}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IdentityServerClient", "src\IdentityServerClient\IdentityServerClient.xproj", "{2813FB73-368D-4384-9C2C-EA21FC206015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57A60A44-19C9-4A0A-89F8-47E588CDB9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A60A44-19C9-4A0A-89F8-47E588CDB9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A60A44-19C9-4A0A-89F8-47E588CDB9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A60A44-19C9-4A0A-89F8-47E588CDB9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2813FB73-368D-4384-9C2C-EA21FC206015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2813FB73-368D-4384-9C2C-EA21FC206015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2813FB73-368D-4384-9C2C-EA21FC206015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2813FB73-368D-4384-9C2C-EA21FC206015}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57A60A44-19C9-4A0A-89F8-47E588CDB9A7} = {19AD7883-3803-4C4D-B0F8-EC92FF65DC9B}
+		{2813FB73-368D-4384-9C2C-EA21FC206015} = {19AD7883-3803-4C4D-B0F8-EC92FF65DC9B}
+	EndGlobalSection
+EndGlobal
